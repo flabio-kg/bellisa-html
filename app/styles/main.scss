@@ -1,0 +1,25 @@
+$icon-font-path: '../fonts/';
+
+$grid-columns: 20;
+$grid-gutter-width: 20px;
+$container-large-desktop: (1170px + $grid-gutter-width);
+
+@import "../fonts/font/css/font.css";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import "_helpers.scss";
+@import "_header.scss";
+@import "_contacts.scss";
+@import "_registration.scss";
+@import "_basket.scss";
+@import "_home.scss";
+@import "_dispatch.scss";
+@import "_catalog.scss";
+@import "_goods.scss";
+@import "_payment.scss";
+@import "_popup.scss";
+@import "_footer.scss";
